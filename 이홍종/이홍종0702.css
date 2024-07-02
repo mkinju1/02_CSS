@@ -1,0 +1,108 @@
+
+.sticky{
+  background-color: steelblue;
+  color: white;
+  padding: 77px 20px 30px;
+  font-family: '고딕체';
+  position: sticky;
+
+
+  top: -70px;
+
+  z-index: 100; 
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div, header, main, footer, section {border: 1px solid black;}
+
+img {
+  margin: auto;
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20%;
+  
+}
+body{
+  display: flex;
+  flex-direction:column;
+  min-height: 100vh;
+  font-family: '궁서체';
+  
+}
+header{
+  height: 100px;
+  display: flex;
+}
+.header-1{width: 290px;}
+.header-2{width: 290px;}
+.header-3{flex-grow: 1;}
+
+main{
+  background-color: skyblue;
+
+
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+.content-1{ height: 290px;}
+.content-2{ height: 360px;}
+.content-3{ height: 360px;}
+.content-4{ flex-grow: 1;}
+
+footer{
+  height: 500px;
+  font-family: '명조체';
+}
+footer > section{ height: 50%;}
+
+.fixed-container{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.fixed-container > a{
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: lightslategray;
+
+  line-height: 40px;
+
+  user-select: none;
+
+  border-radius: 50%;
+}
+html{
+
+  scroll-behavior: smooth;
+}
+.container-1{
+  width : 100px;
+  height : 100px;
+}
+.row-50{
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.col-50{
+  height: 100%;
+  width: 50%;
+}
+

@@ -1,0 +1,59 @@
+/* css 파일은 <style> 태그 내부라고 생각 */
+/* crtl / 는 주석 , ctral shift / 는 그 자리에 주석*/
+
+/* 아이디가 test1인 요소를 선택 */
+#test1{
+  color: hotpink; /* 글자색*/
+  font-weight: bold; /* 글자 굵기를 굵게 */
+  font-size: 20px; /* 글자 크기 */
+}
+
+
+/* id 선택자 */
+
+#li1 { background-color: #667BC6;}
+
+#li2 {background-color: #FDFFD2;}
+
+#li3 {background-color: #FFB4C2;}
+
+
+/* 태그 선택자 */
+strong{
+  font-size: 18px;
+  font-family: '고딕';
+  color: dimgray;
+}
+
+code {
+  background-color: #F4A261; /* 배경색 */
+  display : block; /* 요소를 block 형식으로 변경 */
+  font-weight: bold;
+}
+
+/* class(.) 선택자 */
+.class-test1 {
+  background-color: black;
+  color: white;}
+
+.class-test2 {
+  background-color: yellow;
+  color: red;
+}
+
+/* 한 요소에 여러 클래스 작성하기 */
+.bg-green{ background-color: green;}
+.font-pink{ color: pink;}
+
+/* 웹 폰트 적용 */
+@font-face {
+  font-family: 'SF_HambakSnow';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 모든 요소(*) 선택자 */
+*{
+  font-family: "SF_HambakSnow";
+}
